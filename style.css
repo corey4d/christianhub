@@ -1,0 +1,99 @@
+body{
+    font-family:"Montserrat";
+    color:whitesmoke;
+    font-size:20px;
+    height:98vh;
+    background: linear-gradient(235deg, black, rgb(15, 15, 15));
+    list-style-position: inside;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align:center;
+}
+
+a{
+    font-size:30px;
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+li{
+    text-align:center;
+    color: rgb(26, 158, 0);
+}
+
+#green{
+    color: rgb(26, 158, 0);
+}
+
+#note{
+    font-size:20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(22, 20, 20);
+    background-color: whitesmoke;
+    border-radius: 30px;
+    float:right;
+    margin-right: 100px;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#whiteButton{
+    color: rgb(22, 20, 20);
+    background-color: whitesmoke;
+    border-radius: 30px;
+    height: 40px;
+    width: 130px;
+    font-size:20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#greyButton{
+    color: whitesmoke;
+    background-color: rgb(10, 10, 10);
+    border-radius: 30px;
+    height: 40px;
+    width: 130px;
+    font-size:20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header{
+    margin-left: 100px;
+}
+
+#options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#whiteButton:hover{
+    box-shadow: 0 10px 10px 0 rgb(39, 39, 39);
+    color:rgb(26, 158, 0)
+}
+
+#note:hover{
+    box-shadow: 0 10px 10px 0 rgb(39, 39, 39);
+    color:rgb(26, 158, 0)
+}
+
+#greyButton:hover{
+    box-shadow: 0 10px 10px 0 rgb(0, 0, 0);
+    background-color: rgb(29, 28, 28)
+}
