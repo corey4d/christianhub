@@ -1,59 +1,111 @@
 body{
-    font-family: "Montserrat";
-    font-weight: lighter;
-    color: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 98vh;
-    background-color: black;
-    background: linear-gradient(235deg, black, rgb(15, 15, 15));
-    text-align: center;
+    font-family:"Montserrat";
+    color:whitesmoke;
     font-size:20px;
+    height:98vh;
+    background: linear-gradient(235deg, black, rgb(15, 15, 15));
     list-style-position: inside;
 }
 
+h5{
+    text-align:center;
+}
+
+h3{
+    text-align: center;
+}
+
+h2{
+    text-align:center;
+}
+
+p{
+    text-align:center;
+}
+
 a{
-    border-style: none;
-    border-radius: 3px;
-    padding:0 20px;
-    box-shadow: 0 10px 30px 0 gray;
+    font-size:30px;
     text-decoration: none;
     color:whitesmoke;
 }
 
+li{
+    text-align:center;
+    color: rgb(26, 158, 0);
+}
+
+#green{
+    color: rgb(26, 158, 0);
+}
+
+#hr{
+    color: rgb(26, 158, 0);
+}
+
+#note{
+    font-size:20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(22, 20, 20);
+    background-color: whitesmoke;
+    border-radius: 30px;
+    float:right;
+    margin-right: 100px;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#whiteButton{
+    color: rgb(22, 20, 20);
+    background-color: whitesmoke;
+    border-radius: 30px;
+    height: 40px;
+    width: 130px;
+    font-size:20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#greyButton{
+    color: whitesmoke;
+    background-color: rgb(10, 10, 10);
+    border-radius: 30px;
+    height: 40px;
+    width: 130px;
+    font-size:20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #header{
-    border-style: solid;
-    border-radius: 20px;
-    padding:0 20px;
-    box-shadow: 0 10px 30px 0 gray;
+    margin-left: 100px;
 }
 
-#list{
-    color: rgb(255, 143, 14);
+#options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-#back{
-    padding: 0 20px;
+#whiteButton:hover{
+    box-shadow: 0 10px 10px 0 rgb(39, 39, 39);
+    color:rgb(26, 158, 0)
 }
 
-#transparentButton{
-    border-style: none;
-    box-shadow: none;
-    padding:0 0.1px;
+#note:hover{
+    box-shadow: 0 10px 10px 0 rgb(39, 39, 39);
+    color:rgb(26, 158, 0)
 }
 
-#buttons{
-    padding-bottom: 10px;
-}
-
-#button:hover{
-    color: rgb(255, 255, 255);
-    text-shadow: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-}
-
-#transparentButton:hover{
-    padding:0 2px;
-    filter: grayscale(100%)
+#greyButton:hover{
+    box-shadow: 0 10px 10px 0 rgb(0, 0, 0);
+    background-color: rgb(29, 28, 28)
 }
